@@ -1,9 +1,8 @@
 # MySdu
 MySdu - 一个简洁方便的山大小助手
 
-![MySdu](https://lyuxi99.github.io/mysdu/imgs/banner.png)
+<img src="https://lyuxi99.github.io/mysdu/imgs/banner.png" alt="post" style="zoom:67%;" />
 
-![MySdu](https://lyuxi99.github.io/mysdu/imgs/qr_share.png)
 [下载链接](https://lyuxi99.github.io/mysdu/share.html)
 
 反馈群号：296843720 (QQ群)
