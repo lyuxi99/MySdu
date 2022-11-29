@@ -10,5 +10,5 @@ MySdu - 一个简洁方便的山大小助手
 感兴趣的同学欢迎加入 MySdu 反馈群。可以在群里和开发者互动！告诉我的你的意见和建议。
 
 # 编译环境
-Android Studio
-Android SDK 32
+* Android Studio
+* Android SDK 32
