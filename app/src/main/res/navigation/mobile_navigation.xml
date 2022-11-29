@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_syllabus">
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/navigation_home"-->
+    <!--        android:name="com.lv.sdumap.ui.home.HomeFragment"-->
+    <!--        android:label="@string/title_home"-->
+    <!--        tools:layout="@layout/fragment_home" />-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/navigation_dashboard"-->
+    <!--        android:name="com.lv.sdumap.ui.dashboard.DashboardFragment"-->
+    <!--        android:label="@string/title_dashboard"-->
+    <!--        tools:layout="@layout/fragment_dashboard" />-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/navigation_notifications"-->
+    <!--        android:name="com.lv.sdumap.ui.notifications.NotificationsFragment"-->
+    <!--        android:label="@string/title_notifications"-->
+    <!--        tools:layout="@layout/fragment_notifications" />-->
+
+    <fragment
+        android:id="@+id/navigation_syllabus"
+        android:name="com.lv.sdumap.ui.syllabus.SyllabusFragment"
+        android:label="@string/title_syllabus"
+        tools:layout="@layout/fragment_syllabus" />
+
+    <fragment
+        android:id="@+id/navigation_todo"
+        android:name="com.lv.sdumap.ui.todo.TodoFragment"
+        android:label="@string/title_todo"
+        tools:layout="@layout/fragment_todo" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.lv.sdumap.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_grade"
+        android:name="com.lv.sdumap.ui.grade.GradeFragment"
+        android:label="@string/title_grade"
+        tools:layout="@layout/fragment_grade" />
+
+    <fragment
+        android:id="@+id/navigation_misc"
+        android:name="com.lv.sdumap.ui.misc.MiscFragment"
+        android:label="@string/title_misc"
+        tools:layout="@layout/fragment_misc" >
+        <action
+            android:id="@+id/action_navigation_misc_to_qrCodeFragment"
+            app:destination="@id/qrCodeFragment" />
+        <action
+            android:id="@+id/action_navigation_misc_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+        <action
+            android:id="@+id/action_navigation_misc_to_applyGoOutFragment"
+            app:destination="@id/applyGoOutFragment" />
+        <action
+            android:id="@+id/action_navigation_misc_to_examScheduleFragment"
+            app:destination="@id/examScheduleFragment" />
+        <action
+            android:id="@+id/action_navigation_misc_to_navigation_map"
+            app:destination="@id/navigation_map" />
+        <action
+            android:id="@+id/action_navigation_misc_to_navigation_grade"
+            app:destination="@id/navigation_grade" />
+        <action
+            android:id="@+id/action_navigation_misc_to_emptyRoomFragment"
+            app:destination="@id/emptyRoomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qrCodeFragment"
+        android:name="com.lv.sdumap.ui.qr_code.QrCodeFragment"
+        android:label="身份证二维码"
+        tools:layout="@layout/fragment_qr_code" />
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.lv.sdumap.ui.library.LibraryFragment"
+        android:label="图书馆预约"
+        tools:layout="@layout/fragment_library" />
+    <fragment
+        android:id="@+id/applyGoOutFragment"
+        android:name="com.lv.sdumap.ui.apply_go_out.ApplyGoOutFragment"
+        android:label="申请出校"
+        tools:layout="@layout/fragment_apply_go_out" />
+    <fragment
+        android:id="@+id/examScheduleFragment"
+        android:name="com.lv.sdumap.ui.exam_schedule.ExamScheduleFragment"
+        android:label="考试安排"
+        tools:layout="@layout/fragment_exam_schedule" />
+    <fragment
+        android:id="@+id/emptyRoomFragment"
+        android:name="com.lv.sdumap.ui.empty_room.EmptyRoomFragment"
+        android:label="空教室查询"
+        tools:layout="@layout/fragment_empty_room" />
+
+</navigation>

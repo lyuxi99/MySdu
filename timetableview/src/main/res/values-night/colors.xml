@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_white">#2B2B2B</color>
+    <color name="app_course_chooseweek_bg">#2B2B2B</color>
+    <color name="app_course_chooseweek_lightbg">#2B2B2B</color>
+    <color name="app_gray2">#2B2B2B</color>
+    <color name="useless">#2B2B2B</color>
+
+</resources>

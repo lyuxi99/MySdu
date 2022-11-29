@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.misc.MiscFragment">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:text="Hello" />-->
+
+    <LinearLayout
+        android:id="@+id/id_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/id_btn_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_map"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="校区地图"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/id_btn_library"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_library"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="图书馆预约"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:elevation="1dp">
+
+            <ImageButton
+                android:id="@+id/id_btn_apply_go_out"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_go_out"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="出校申请"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/id_btn_exam_schedule"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_exam_schedule"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="考试安排"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/id_btn_grade"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_grade"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="成绩查询"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/id_btn_qr_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_qr_code"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="身份证二维码"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/id_row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/id_btn_empty_room"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/ButtonStyle"
+                android:elevation="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:elevation="20dp"
+                android:clickable="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_empty_room"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="空教室查询"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <!--        <FrameLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <ImageButton-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:theme="@style/ButtonStyle"-->
+<!--                android:elevation="0dp"/>-->
+<!--        </FrameLayout>-->
+<!--    </LinearLayout>-->
+</LinearLayout>

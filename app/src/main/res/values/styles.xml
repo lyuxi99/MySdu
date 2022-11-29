@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:colorButtonNormal">@color/white</item>
+<!--        <item name="colorButtonNormal">@android:color/transparent</item>-->
+<!--        <item name="android:radius">100dp</item>-->
+<!--        <item name="cornerRadius">100dp</item>-->
+    </style>
+    <style name="CircleButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+<!--        <item name="android:colorButtonNormal">@android:color/white</item>-->
+        <item name="android:shape">oval</item>
+        <!--        <item name="colorButtonNormal">@android:color/transparent</item>-->
+        <!--        <item name="android:radius">100dp</item>-->
+        <!--        <item name="cornerRadius">100dp</item>-->
+    </style>
+</resources>

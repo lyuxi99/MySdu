@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>加载中</title>
+    <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+<div id="app">
+    <div style="margin-top: 20px">
+        <el-container v-loading.fullscreen.lock="fullscreenLoading"></el-container>
+    </div>
+</div>
+<script>
+  new Vue({
+    el: '#app',
+    data() {
+      return {
+        fullscreenLoading: true
+      }
+    },
+    methods: {
+      jump(){
+        window.open('https://jq.qq.com/?_wv=1027&k=5g3NURpH', '_blank')
+      }
+    },
+    components: {},
+  })
+</script>
+
+</body>
+</html>
