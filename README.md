@@ -1,5 +1,4 @@
-# MySdu
-MySdu - 一个简洁方便的山大小助手
+# MySdu - 一个简洁方便的山大小助手
 
 <img src="https://lyuxi99.github.io/mysdu/imgs/banner.png" alt="post" style="zoom:50%;" />
 
