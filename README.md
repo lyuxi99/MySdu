@@ -1,7 +1,7 @@
 # MySdu
 MySdu - 一个简洁方便的山大小助手
 
-<img src="https://lyuxi99.github.io/mysdu/imgs/banner.png" alt="post" style="zoom:67%;" />
+<img src="https://lyuxi99.github.io/mysdu/imgs/banner.png" alt="post" style="zoom:50%;" />
 
 [下载链接](https://lyuxi99.github.io/mysdu/share.html)
 
